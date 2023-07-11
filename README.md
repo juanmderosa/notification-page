@@ -12,8 +12,8 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-![Desktop](images/screenshot-notificationpage-desktop.png)
-![Mobile](images/screenshot-notificationpage-mobile.png)
+![Desktop](public/images/screenshot-notificationpage-desktop.png)
+![Mobile](public/images/screenshot-notificationpage-mobile.png)
 
 ### Links
 
