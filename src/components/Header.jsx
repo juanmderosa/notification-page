@@ -13,7 +13,7 @@ export const Header = ({unreaded, notifications, setNotifications}) => {
     <header className="notification-page-header">
     <h1 className="header-title">Notifications</h1>
     <h2 className="header-notifications">{unreaded}</h2>
-    <button className="header-markAsRead" onClick={markAllAsRead}>Mark as read</button>
+    <button className="header-markAsRead" onClick={markAllAsRead}>Mark all as read</button>
   </header>
   )
 }

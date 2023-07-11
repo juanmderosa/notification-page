@@ -8,13 +8,20 @@
         font-size: 2rem;
         font-weight: 800;
         margin-right: 1rem;
-        color: $Verydarkblue
+        color: $Verydarkblue;
+        @media (max-width: 700px) {
+            font-size: 1.5rem;
+        }
     }
     .header-notifications{
         background-color: $Blue;
         padding-inline: 1rem;
         color: $White;
         border-radius: .3rem;
+        @media (max-width: 700px) {
+            padding-inline: .5rem;
+        }
+
     }
     .header-markAsRead{
         position: absolute;
@@ -25,6 +32,10 @@
         cursor: pointer;
         &:focus{
             outline: none;
+        }
+        &:hover{
+            color: $Blue;
+            font-weight: 800;
         }
     }
 }

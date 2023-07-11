@@ -15,7 +15,7 @@ export const Notification = ({notifications, setNotifications}) => {
             <img className="avatar" src={notification.avatar} alt="avatar"/>
           </figure>
           <aside className="notification-details-container">
-            <div className="notification-details">
+            <div className={notification.comment ? "notification-details notification-details80" : "notification-details"}>
               <span className="notification-name">{notification.name} </span>
               <span className="notification-action">{notification.action} {notification.actionTarget} </span>
               <span className={notification.actionTarget === "group" ? "notification-content notification-content-group" : "notification-content"}> {notification.actionContent} </span>

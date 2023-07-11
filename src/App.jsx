@@ -112,7 +112,7 @@ function App() {
   return (
     <>
       <main className="main-container">
-        <Header notifications={notifications} setNotifications={setNotifications} />
+        <Header notifications={notifications} setNotifications={setNotifications} unreaded={unreaded}/>
         <NotificationContainer notifications={notifications} unreaded={unreaded} setNotifications={setNotifications}/>
       </main>
     </>
