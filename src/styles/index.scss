@@ -1,3 +1,9 @@
+@import "./Colors";
+@import "./Header";
+@import "./NotificationContainer";
+@import "./Notification";
+
+
 /* Normalize */
 
 *, *::before, *::after {
@@ -10,12 +16,6 @@
 html, body {
     height: 100%;
 }
-body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 1rem;
-}
 img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;
@@ -24,3 +24,26 @@ input, button, textarea, select {
     font: inherit;
 }
 
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1rem;
+    background-color: $Verylightgrayishblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    flex-wrap: wrap
+}
+
+.main-container{
+    background-color: $White;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 70%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}

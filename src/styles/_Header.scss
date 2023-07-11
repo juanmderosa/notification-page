@@ -1,0 +1,32 @@
+.notification-page-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    .header-title{
+        font-size: 2rem;
+        font-weight: 800;
+        margin-right: 1rem;
+        color: $Verydarkblue
+    }
+    .header-notifications{
+        background-color: $Blue;
+        padding-inline: 1rem;
+        color: $White;
+        border-radius: .3rem;
+    }
+    .header-markAsRead{
+        position: absolute;
+        right: 0rem;
+        background-color: transparent;
+        border: none;
+        color: $Darkgrayishblue;
+        cursor: pointer;
+        &:focus{
+            outline: none;
+        }
+    }
+}
+
+

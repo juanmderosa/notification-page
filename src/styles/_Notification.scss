@@ -1,0 +1,69 @@
+.notification-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    border-radius: 1rem;
+}
+
+.notification-container-unread{
+    background-color: $Lightgrayishblue1;
+}
+.avatar-container{
+    width: 10%;
+    padding: 1rem;
+}
+.avatar{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.notification-details-container{
+    width: 90%;
+    position: relative;
+}
+
+.notification-details{
+    width: 100%;
+}
+
+.notification-name{
+    font-weight: 800;
+    color: $Verydarkblue;
+}
+.notification-action{
+    color: $Grayishblue;
+}
+
+.notification-content{
+    color: $Darkgrayishblue;
+    font-weight: 800;
+}
+.notification-content-group{
+    color: $Blue;
+}
+.notification-unread{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $Red;
+    margin-left: .5rem;
+    display: inline-block;
+}
+.notfication-time{
+    color: $Grayishblue;
+}
+
+.private-msj{
+    margin-block: .5rem;
+    border: 1px solid $Lightgrayishblue2;
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.comment-img{
+    position: absolute;
+width: 50px;
+right: 0;
+top: 0;
+}
